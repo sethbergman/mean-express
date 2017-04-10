@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(compress());
 app.use(cookieParser());
-app.use(favicon(path.join(config.root, 'static/img/favicon.png')));
+app.use(favicon(path.join(config.root, 'static/img/favicon.ico')));
 app.use(helmet());
 // set all controllers
 app.use('/', controllers);

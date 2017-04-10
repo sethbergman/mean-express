@@ -2,9 +2,9 @@
   "name": "ng6",
   "version": "0.0.1",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "gulp",
     "test": "gulp test"
   },
   "author": "sethbergman",
@@ -54,6 +54,8 @@
     "gulp-util": "^3.0.7",
     "main-bower-files": "^2.13.1",
     "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
     "vinyl-fs": "^2.4.3"
   }
 }
